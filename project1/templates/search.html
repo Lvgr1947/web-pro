@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+  
+body {
+    font: Helvetica, sans-serif;
+    color: rgb(233, 220, 220);
+    /* background-color: #333; */
+    text-align: center;
+    background-color: rgb(47, 49, 49);
+  }
+input[type=text]{
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+.registerbtn {
+    background-color: rgb(167, 66, 19);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 10px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 15%;
+    opacity: 0.9;
+    align-content: center;
+  }  
+.registerbtn:hover {
+    opacity: 1;
+  }
+.searchbtn {
+    background-color: rgb(167, 66, 19);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 10px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 0.9;
+  }  
+.searchbtn:hover {
+    opacity: 1;
+  }
+.choice{
+    padding: 14px 20px;
+    margin: 8px 8px;
+    border: none;
+    text-align: center;
+}
+
+</style>
+<body style="text-align: center;">
+</br>
+<nav class="navbar navbar-light bg-light justify-content-between mystyle"></nav>
+<form action="{{url_for('search')}}" method="POST">
+    <div class="container">
+        <h1>HOME PAGE</h1> 
+        <button type="submit" class ="registerbtn" name ="logout" style = "float:inline-end" formaction="{{url_for('logout')}}"> LOGOUT</button>       
+        <hr>
+        <h5>{{headline}}</h5>
+        <h1>WELCOME TO YOUR HOMEPAGE</h1>
+    </br>       
+        <label for="choice"><h3>Choose a search type:</h3></label>
+        <select class ="choice" id="choice" name="choice">
+        <option class ="choice" value="isbn" style="font-size: larger;">isbn</option>
+        <option class ="choice" value="bname">Book Name</option>
+        <option class ="choice" value="author">Author</option>
+        </select>
+        <input type="text" name = "searchbox" placeholder="Search" aria-label="Search">
+    </br>
+        <button type="submit" class ="searchbtn" name ="search" formaction="{{url_for('search')}}"> SEARCH</button></br></br>
+    </div>
+    
+
+</form>
+</body>
+</html>

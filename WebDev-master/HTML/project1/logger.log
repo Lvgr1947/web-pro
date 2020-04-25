@@ -1,0 +1,846 @@
+DEBUG:root:database sessions created
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:39:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:39:15] "GET /register HTTP/1.1" 200 -
+ERROR:application:Exception on /register [POST]
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aishwarya\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\aishwarya\Desktop\git\WebDev\HTML\project1\application.py", line 53, in response
+    info = username(username=username,password=password,timestamp=calendar.timegm(time.gmtime()))
+TypeError: 'str' object is not callable
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:40:45] "POST /register HTTP/1.1" 500 -
+ERROR:application:Exception on /register [POST]
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aishwarya\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\aishwarya\Desktop\git\WebDev\HTML\project1\application.py", line 53, in response
+    info = username(username=username,password=password,timestamp=calendar.timegm(time.gmtime()))
+TypeError: 'str' object is not callable
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:41:05] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:41:08] "GET /register HTTP/1.1" 200 -
+ERROR:application:Exception on /register [POST]
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aishwarya\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\aishwarya\Desktop\git\WebDev\HTML\project1\application.py", line 53, in response
+    info = username(username=username,password=password,timestamp=calendar.timegm(time.gmtime()))
+TypeError: 'str' object is not callable
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:41:14] "POST /register HTTP/1.1" 500 -
+ERROR:application:Exception on /register [POST]
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aishwarya\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\aishwarya\Desktop\git\WebDev\HTML\project1\application.py", line 53, in response
+    info = username(username=username,password=password,timestamp=calendar.timegm(time.gmtime()))
+TypeError: 'str' object is not callable
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:43:26] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:43:28] "GET /register HTTP/1.1" 200 -
+ERROR:application:Exception on /register [POST]
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aishwarya\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\aishwarya\Desktop\git\WebDev\HTML\project1\application.py", line 53, in response
+    info = username(username=username,password=password,timestamp=calendar.timegm(time.gmtime()))
+TypeError: 'str' object is not callable
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:46:09] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:46:12] "GET /register HTTP/1.1" 200 -
+DEBUG:root:database sessions created
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:46:27] "GET /register HTTP/1.1" 200 -
+ERROR:application:Exception on /register [POST]
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aishwarya\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\aishwarya\Desktop\git\WebDev\HTML\project1\application.py", line 53, in response
+    info = username(username=username,password=password,timestamp=calendar.timegm(time.gmtime()))
+TypeError: 'str' object is not callable
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:46:40] "POST /register HTTP/1.1" 500 -
+DEBUG:root:database sessions created
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:47:50] "GET /register HTTP/1.1" 200 -
+ERROR:application:Exception on /register [POST]
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aishwarya\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\aishwarya\Desktop\git\WebDev\HTML\project1\application.py", line 53, in response
+    info = username(username=username,password=password,timestamp=calendar.timegm(time.gmtime()))
+TypeError: 'str' object is not callable
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:48:05] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:48:08] "GET /register HTTP/1.1" 200 -
+ERROR:application:Exception on /register [POST]
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aishwarya\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\aishwarya\Desktop\git\WebDev\HTML\project1\application.py", line 53, in response
+    info = username(username=username,password=password,timestamp=calendar.timegm(time.gmtime()))
+TypeError: 'str' object is not callable
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:49:13] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:51:11] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:51:23] "GET /register HTTP/1.1" 200 -
+ERROR:application:Exception on /register [POST]
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aishwarya\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\aishwarya\Desktop\git\WebDev\HTML\project1\application.py", line 53, in response
+    info = username(username=username,password=password,timestamp=calendar.timegm(time.gmtime()))
+TypeError: 'str' object is not callable
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:57:54] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:57:57] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:58:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 17:58:09] "GET /admin HTTP/1.1" 200 -
+DEBUG:root:database sessions created
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:00:14] "GET /register HTTP/1.1" 200 -
+ERROR:application:Exception on /register [POST]
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aishwarya\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\aishwarya\Desktop\git\WebDev\HTML\project1\application.py", line 53, in response
+    info = username(username=username,password=password,timestamp=calendar.timegm(time.gmtime()))
+TypeError: 'str' object is not callable
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:00:24] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:00:29] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:00:55] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:00:56] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:01:03] "GET /register HTTP/1.1" 200 -
+ERROR:application:Exception on /register [POST]
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aishwarya\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\aishwarya\Desktop\git\WebDev\HTML\project1\application.py", line 53, in response
+    info = username(username=username,password=password,timestamp=calendar.timegm(time.gmtime()))
+TypeError: 'str' object is not callable
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:01:11] "POST /register HTTP/1.1" 500 -
+DEBUG:root:database sessions created
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:02:15] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:02:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:02:22] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:02:30] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:02:30] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:02:30] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:02:30] "GET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:02:31] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:02:31] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:02:31] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:05:31] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:05:43] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:05:43] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:05:43] "GET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:05:43] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:05:43] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:05:43] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:05:44] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:06:15] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:06:16] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:07:00] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:07:11] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:07:11] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:07:12] "GET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:07:12] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:07:12] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:07:12] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:07:12] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:07:28] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:07:42] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:07:42] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:07:43] "GET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:07:43] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:07:43] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:07:43] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:07:43] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:08:14] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+DEBUG:root:database sessions created
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:15:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:15:08] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:15:17] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:15:43] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:16:02] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:16:06] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:16:08] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:16:33] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:17:01] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:17:17] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:17:29] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:18:11] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:19:31] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:19:44] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:20:47] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:21:00] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:21:00] "GET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:21:00] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:21:01] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:21:01] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:21:01] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:21:01] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:21:43] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:21:54] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:22:05] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:33:26] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:33:26] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:33:26] "GET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:33:26] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:33:27] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:33:27] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:33:27] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:33:42] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:56:15] "GET /register HTTP/1.1" 200 -
+DEBUG:root:database sessions created
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:56:32] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:56:54] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:57:10] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:57:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:57:25] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:58:23] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:58:35] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:58:45] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 18:58:51] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 21:53:34] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 21:53:42] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 21:53:52] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 21:54:04] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 21:54:15] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 21:54:41] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2020 21:54:48] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 11:57:27] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 11:57:50] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 11:58:01] "POST /auth HTTP/1.1" 405 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:03:30] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:03:33] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:03:52] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:04:07] "POST /auth HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:04:07] "GET /auth?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:04:07] "GET /auth?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:04:07] "GET /auth?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:04:07] "GET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:04:08] "GET /auth?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:04:08] "GET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+DEBUG:root:database sessions created
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:45:37] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:45:55] "POST /auth HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:46:38] "POST /auth HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:46:38] "GET /auth?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:46:38] "GET /auth?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:46:38] "GET /auth?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:46:39] "GET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:46:39] "GET /auth?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:46:39] "GET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:51:27] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:52:16] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:53:04] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:53:34] "POST /auth HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:53:34] "GET /auth?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:53:34] "GET /auth?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:53:34] "GET /auth?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:53:35] "GET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 12:53:35] "GET /auth?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:21] "GET /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:21] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:23] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:25] "GET /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:25] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:26] "GET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:26] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:26] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:26] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:44] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:51] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:51] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:51] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:51] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:52] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:02:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:root:database sessions created
+DEBUG:root:database sessions created
+DEBUG:root:database sessions created
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:06:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:06:59] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:07:14] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:07:24] "POST /auth HTTP/1.1" 200 -
+ERROR:application:Exception on /register [POST]
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.NotNullViolation: null value in column "username" violates not-null constraint
+DETAIL:  Failing row contains (null, null, 1587289052).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aishwarya\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\aishwarya\Desktop\git\WebDev\HTML\project1\application.py", line 55, in response
+    db.session.commit()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 1036, in commit
+    self.transaction.commit()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 503, in commit
+    self._prepare_impl()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 482, in _prepare_impl
+    self.session.flush()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 2496, in flush
+    self._flush(objects)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 2637, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\util\langhelpers.py", line 69, in __exit__
+    exc_value, with_traceback=exc_tb,
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 2597, in _flush
+    flush_context.execute()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 589, in execute
+    uow,
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    insert,
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\persistence.py", line 1136, in _emit_insert_statements
+    statement, params
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 984, in execute
+    return meth(self, multiparams, params)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\sql\elements.py", line 293, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1103, in _execute_clauseelement
+    distilled_params,
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1288, in _execute_context
+    e, statement, parameters, cursor, context
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1482, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.NotNullViolation) null value in column "username" violates not-null constraint
+DETAIL:  Failing row contains (null, null, 1587289052).
+
+[SQL: INSERT INTO "USER" (password, timestamp) VALUES (%(password)s, %(timestamp)s)]
+[parameters: {'password': None, 'timestamp': 1587289052}]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:07:33] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:14:58] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:16:19] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:18:05] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:18:28] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:20:18] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:20:33] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:22:09] "GET /register HTTP/1.1" 200 -
+DEBUG:root:database sessions created
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:23:20] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:23:46] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:24:00] "POST /auth HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:24:11] "POST /auth HTTP/1.1" 200 -
+ERROR:application:Exception on /register [POST]
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.NotNullViolation: null value in column "username" violates not-null constraint
+DETAIL:  Failing row contains (null, null, 1587290055).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aishwarya\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\aishwarya\Desktop\git\WebDev\HTML\project1\application.py", line 55, in response
+    db.session.commit()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 1036, in commit
+    self.transaction.commit()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 503, in commit
+    self._prepare_impl()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 482, in _prepare_impl
+    self.session.flush()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 2496, in flush
+    self._flush(objects)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 2637, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\util\langhelpers.py", line 69, in __exit__
+    exc_value, with_traceback=exc_tb,
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 2597, in _flush
+    flush_context.execute()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 589, in execute
+    uow,
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    insert,
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\persistence.py", line 1136, in _emit_insert_statements
+    statement, params
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 984, in execute
+    return meth(self, multiparams, params)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\sql\elements.py", line 293, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1103, in _execute_clauseelement
+    distilled_params,
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1288, in _execute_context
+    e, statement, parameters, cursor, context
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1482, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.NotNullViolation) null value in column "username" violates not-null constraint
+DETAIL:  Failing row contains (null, null, 1587290055).
+
+[SQL: INSERT INTO "USER" (password, timestamp) VALUES (%(password)s, %(timestamp)s)]
+[parameters: {'password': None, 'timestamp': 1587290055}]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:24:19] "POST /register HTTP/1.1" 500 -
+ERROR:application:Exception on /register [POST]
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.NotNullViolation: null value in column "username" violates not-null constraint
+DETAIL:  Failing row contains (null, null, 1587290247).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aishwarya\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\aishwarya\Desktop\git\WebDev\HTML\project1\application.py", line 55, in response
+    ch = USER.query.filter_by(username=username).first()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 1036, in commit
+    self.transaction.commit()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 503, in commit
+    self._prepare_impl()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 482, in _prepare_impl
+    self.session.flush()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 2496, in flush
+    self._flush(objects)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 2637, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\util\langhelpers.py", line 69, in __exit__
+    exc_value, with_traceback=exc_tb,
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 2597, in _flush
+    flush_context.execute()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 589, in execute
+    uow,
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    insert,
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\persistence.py", line 1136, in _emit_insert_statements
+    statement, params
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 984, in execute
+    return meth(self, multiparams, params)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\sql\elements.py", line 293, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1103, in _execute_clauseelement
+    distilled_params,
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1288, in _execute_context
+    e, statement, parameters, cursor, context
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1482, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.NotNullViolation) null value in column "username" violates not-null constraint
+DETAIL:  Failing row contains (null, null, 1587290247).
+
+[SQL: INSERT INTO "USER" (password, timestamp) VALUES (%(password)s, %(timestamp)s)]
+[parameters: {'password': None, 'timestamp': 1587290247}]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:27:27] "POST /register HTTP/1.1" 500 -
+ERROR:application:Exception on /register [POST]
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.NotNullViolation: null value in column "username" violates not-null constraint
+DETAIL:  Failing row contains (null, null, 1587290265).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aishwarya\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aishwarya\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\aishwarya\Desktop\git\WebDev\HTML\project1\application.py", line 55, in response
+    ch = USER.query.filter_by(username=username).first()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 1036, in commit
+    self.transaction.commit()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 503, in commit
+    self._prepare_impl()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 482, in _prepare_impl
+    self.session.flush()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 2496, in flush
+    self._flush(objects)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 2637, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\util\langhelpers.py", line 69, in __exit__
+    exc_value, with_traceback=exc_tb,
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\session.py", line 2597, in _flush
+    flush_context.execute()
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 589, in execute
+    uow,
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    insert,
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\orm\persistence.py", line 1136, in _emit_insert_statements
+    statement, params
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 984, in execute
+    return meth(self, multiparams, params)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\sql\elements.py", line 293, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1103, in _execute_clauseelement
+    distilled_params,
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1288, in _execute_context
+    e, statement, parameters, cursor, context
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1482, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "c:\users\aishwarya\lib\site-packages\sqlalchemy\engine\default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.NotNullViolation) null value in column "username" violates not-null constraint
+DETAIL:  Failing row contains (null, null, 1587290265).
+
+[SQL: INSERT INTO "USER" (password, timestamp) VALUES (%(password)s, %(timestamp)s)]
+[parameters: {'password': None, 'timestamp': 1587290265}]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:27:46] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:27:48] "GET /register HTTP/1.1" 200 -
+DEBUG:root:database sessions created
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:28:31] "POST /auth HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:28:34] "POST / HTTP/1.1" 405 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:29:42] "POST / HTTP/1.1" 405 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:29:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:29:46] "GET / HTTP/1.1" 200 -
+DEBUG:root:database sessions created
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:30:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:30:30] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:30:48] "POST /auth HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:30:50] "POST /logout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:31:05] "POST /auth HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:31:07] "POST /logout HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:31:47] "GET /logout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:31:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:32:00] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:32:19] "POST /auth HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:32:24] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:32:24] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:32:24] "GET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:32:25] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:32:25] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:32:25] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:32:25] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:33:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:33:36] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:33:52] "POST /auth HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:33:54] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:34:09] "POST /auth HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:34:13] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:43:21] "GET /auth HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:43:21] "GET /auth?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:43:21] "GET /auth?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:43:21] "GET /auth?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:43:22] "GET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:43:22] "GET /auth?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:43:22] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:43:22] "GET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:44:35] "GET /auth HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:44:35] "GET /auth?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:44:35] "GET /auth?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:44:35] "GET /auth?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:44:35] "GET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:44:35] "GET /auth?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2020 15:45:04] "GET /auth HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aishwarya\\Desktop\\git\\WebDev\\HTML\\project1\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:database sessions created
+DEBUG:root:database sessions created
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2020 10:29:04] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2020 10:29:19] "POST /auth HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2020 10:29:21] "POST /register HTTP/1.1" 200 -

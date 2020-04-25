@@ -1,0 +1,27 @@
+Project description steps
+
+Search:
+Create an html page with search bar and logout button: index.html
+Search bar has a dropdown menu containing, isbn, bname and author as an option.
+According to the option selected by the user, we will search the respective column in the database.
+If any match is found, then we retrieve the whole row and display it with the isbn as a hyperlink that leads to its respective page.
+
+Book page:
+When a user clicks on any book, it's page will be open.
+In this page, we will display the book details and all the reviews.
+We first retrieve the isbn number from the parameter passed to the URL.
+We will retrieve the whole row data from the rating table using the isbn.
+The book page displays the details as a table with retrieved data.
+
+Review submission:
+If the user tries the “Write Review” option on the bookpage, check if the user reviewed the particular book earlier or not.
+If the user didn’t submit any review, allow the user to write text, ask the user to rate the book(1-5) and then to submit the review.
+Add the review to the rating table where ratings and reviews of that particular book can be stored.
+Else, display a message saying “You’ve already submitted your Review for this book”
+
+
+Database tables:
+Book : isbn(primary key), bname, author, year
+User : username(primary key), password
+Rating : isbn(foriegn key) username(foreign key) rating review
+

@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+    
+body {
+    font: Helvetica, sans-serif;
+    color: rgb(233, 220, 220);
+    background-color: #333;
+  }
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 10px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+  }  
+.registerbtn:hover {
+    opacity: 1;
+  }
+</style>
+<body>
+</br>
+<form action="{{url_for('logout')}}" method="POST">
+    <div class="container">
+        <h1>HOME PAGE</h1> 
+        <hr>
+        <h5>{{headline}}</h5>
+        <h1>WELCOME TO YOUR HOMEPAGE</h1>
+    </br>
+        <button type="submit" class ="registerbtn" name ="logout"> LOGOUT</button>        
+    </div>
+</form>
+</body>
+</html>
