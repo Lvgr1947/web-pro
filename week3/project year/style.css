@@ -1,0 +1,36 @@
+#content {
+    text-align: center;
+    padding-top: 25%;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1589007015668-202c034630ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+navbar-brand {
+    text-align: center;
+}
+.dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

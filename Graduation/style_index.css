@@ -1,0 +1,19 @@
+
+.bs-example{
+    margin: 20px;
+}
+.my-button {
+    display: inline-block;
+    background-image: url('bgimage3.jpeg');
+    margin: 10px; /* space between buttons */
+    background: #313331; /* background color */
+    color: rgb(240, 234, 234);
+    padding: 100px 60px;
+}
+.my-button:hover {
+    background: #666;
+    color: #c1e1e0;
+}
+#sticky-footer {
+    flex-shrink: none;
+}

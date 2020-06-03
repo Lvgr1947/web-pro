@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --base : #1e1e1e;
+    --light : #ffffff;
+    --accent-1: #c9c9c9;
+    --accent-2: #363636;
+    --dangerous: #f16b6b;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--light);
+
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.drag-menu {
+    background: var(--base);
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    max-width: 425px;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    user-select: none;
+
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, 0%);
+
+    transition: background .25s, transform .5s;
+}
+
+.drag-menu.closed {
+    background: transparent;
+    transform: translate(-50%, 80%);
+}
+
+.drag-menu.closed:hover {
+    background: var(--accent-2);
+}
+
+.drag-menu span {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.drag-area {
+    cursor: pointer;
+    padding: 20px 0;
+}
+
+.drag-line {
+    margin: auto;
+    width: 50px;
+    height: 5px;
+
+    border-radius: 5px;
+    background: var(--accent-1);
+}
+
+.drag-item-container {
+    margin: 40px 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.drag-item {
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 40px;
+    border-radius: 50%;
+
+    transition:  opacity .25s;
+    background: var(--accent-2);
+}
+
+.drag-item:last-child {
+    margin-right: 0;
+}
+
+.drag-item:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+.drag-item.dangerous {
+    background: var(--dangerous);
+}
+
+.drag-item-icon {
+    width: 24px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,18 @@
+#content {
+    text-align: center;
+    padding-top: 25%;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1589007015668-202c034630ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+navbar-brand {
+    text-align: center;
+}
